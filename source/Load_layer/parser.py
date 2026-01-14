@@ -6,8 +6,9 @@ class Parser:
         self.configer = config
 
     def parse(self, raw):
+       # print("RAW PREVIEW:", raw[:300])
 
-        df = pl.read_csv(StringIO(raw), separator=";")
+        df = pl.read_csv(StringIO(raw), separator=",")
         # raw kann JSON, CSV-String, Dict, Liste, HTML etc. sein
        # df = pl.DataFrame(raw)
         print(df)

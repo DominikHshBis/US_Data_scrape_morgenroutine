@@ -12,9 +12,12 @@ loader:
     - nyse
     - amex
   ticker:
-    - appl.us
+    - aapl.us
     - msft.us
     - tsla.us
+    - AACB.US
+    
+
 compute:
   nhnl_lookback: 252
   penny_filter: 1.0

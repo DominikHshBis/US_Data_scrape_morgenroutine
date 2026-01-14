@@ -6,7 +6,7 @@ class Bulkloader_mashine():
             self.pars = pars
             self.load = load
             self.tickers = self.configer.ticker
-            print(self.tickers)
+          #  print(self.tickers)
 
         def loader_looper(self):
             for ticker in self.tickers:
