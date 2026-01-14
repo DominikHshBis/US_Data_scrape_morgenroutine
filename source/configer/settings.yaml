@@ -1,6 +1,6 @@
 paths:
-  data: "C:/Users/domin/Desktop/Morgenroutine_stuff"
-  raw: "C:/Users/domin/Desktop/Morgenroutine_stuff/raw"
+  data: "/workspaces/US_Data_scrape_morgenroutine/source"
+  raw: "/workspaces/US_Data_scrape_morgenroutine/source/data2"
   processed: "C:/Users/domin/Desktop/Morgenroutine_stuff/processed"
 
 loader:
