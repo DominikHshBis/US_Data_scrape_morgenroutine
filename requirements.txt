@@ -1,0 +1,9 @@
+Pandas
+polars
+pyarrow
+requests
+fastapi
+uvicorn
+pydantic
+tqdm
+python-dotenv
