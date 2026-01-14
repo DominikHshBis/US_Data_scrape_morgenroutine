@@ -1,7 +1,7 @@
 paths:
-  data: "/workspaces/US_Data_scrape_morgenroutine/source"
-  raw: "/workspaces/US_Data_scrape_morgenroutine/source/data2"
-  processed: "C:/Users/domin/Desktop/Morgenroutine_stuff/processed"
+  data: "/workspaces/US_Data_scrape_morgenroutine/source/storage/data"
+  raw: "/workspaces/US_Data_scrape_morgenroutine/source/storage/raw"
+  processed: "workspaces/US_Data_scrape_morgenroutine/source/storage/processed"
 
 loader:
   stooq_url: "https://stooq.com/db/h/"
