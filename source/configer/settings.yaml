@@ -1,15 +1,20 @@
 paths:
   data: "/workspaces/US_Data_scrape_morgenroutine/source/storage/data"
-  raw: "/workspaces/US_Data_scrape_morgenroutine/source/storage/raw"
+  raw: "/workspaces/US_Data_scrape_morgenroutine/source/storage/raw/"
   processed: "workspaces/US_Data_scrape_morgenroutine/source/storage/processed"
 
 loader:
-  stooq_url: "https://stooq.com/db/h/"
+  stooq_url: "https://stooq.com/q/d/l/?s=aapl.us&i=d"
+
+
   symbols:
     - nasdaq
     - nyse
     - amex
-
+  ticker:
+    - appl.us
+    - msft.us
+    - tsla.us
 compute:
   nhnl_lookback: 252
   penny_filter: 1.0

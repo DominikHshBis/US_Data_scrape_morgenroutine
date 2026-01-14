@@ -9,10 +9,12 @@ class Config:
         self._data_path = Path(self._cfg["paths"]["data"])
         self._raw_path = Path(self._cfg["paths"]["raw"])
         self._processed_path = Path(self._cfg["paths"]["processed"])
+        
 
         # Loader Settings
         self._stooq_url = self._cfg["loader"]["stooq_url"]
         self._symbols = self._cfg["loader"]["symbols"]
+        self._ticker = self._cfg["loader"]["ticker"]
 
         # Compute Settings
         self._nhnl_lookback = self._cfg["compute"]["nhnl_lookback"]
@@ -22,6 +24,10 @@ class Config:
     @property
     def data_path(self):
         return self._data_path
+    
+    @property
+    def ticker(self):
+        return self._ticker
 
     @property
     def raw_path(self):
