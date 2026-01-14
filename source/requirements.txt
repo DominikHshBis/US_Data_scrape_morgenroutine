@@ -7,3 +7,4 @@ uvicorn
 pydantic
 tqdm
 python-dotenv
+pyyaml

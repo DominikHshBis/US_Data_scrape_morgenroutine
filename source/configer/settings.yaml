@@ -1,0 +1,15 @@
+paths:
+  data: "C:/Users/domin/Desktop/Morgenroutine_stuff"
+  raw: "C:/Users/domin/Desktop/Morgenroutine_stuff/raw"
+  processed: "C:/Users/domin/Desktop/Morgenroutine_stuff/processed"
+
+loader:
+  stooq_url: "https://stooq.com/db/h/"
+  symbols:
+    - nasdaq
+    - nyse
+    - amex
+
+compute:
+  nhnl_lookback: 252
+  penny_filter: 1.0
